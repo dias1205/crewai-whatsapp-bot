@@ -1,0 +1,6 @@
+services:
+  agentecrewaiwhatsapp:
+    image: agentecrewaiwhatsapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
